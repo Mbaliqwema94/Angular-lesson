@@ -9,8 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 const routes: Routes = [
   {path:'products', component: ProductsComponent},
   {path:'cart', component: CartComponent},
-  {path:'home', component: HomepageComponent},
-  {path:'', component: NavbarComponent},
+  {path:'', component: HomepageComponent},
+  {path:'nav', component: NavbarComponent},
   {path:'footer', component: FooterComponent}
   
 ];
